@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+
+group 'dev.moriaenergy'
+version '0.1'
+mainClassName = group + '.Main'
+
+repositories {
+    mavenCentral()
+}
+
